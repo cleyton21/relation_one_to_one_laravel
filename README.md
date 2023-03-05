@@ -46,17 +46,17 @@ Verifique agora que foi criada a tabela addresses, relacionada com a tabela user
 
 Na nossa Model Address vamos preencher a propriedade `fillable` do Model.
 
-![App Screenshot](https://raw.githubusercontent.com/cleyton21/images/master/model_address.png?token=GHSAT0AAAAAAB7THWOZ5VEPOYCGSHK5GOB4ZAEWGHQ)
+![App Screenshot](https://github.com/cleyton21/images/blob/master/model_address.png?raw=true)
 ## Model User
 
 Na nossa model User vamos criar a seguinte função que será responsável por declarar um relacionamento One to One.
 
-![App Screenshot](https://raw.githubusercontent.com/cleyton21/images/master/function_endereco.png?token=GHSAT0AAAAAAB7THWOY252M4TKN3QKGNQYWZAEWNVA)
+![App Screenshot](https://github.com/cleyton21/images/blob/master/function_endereco.png?raw=true)
 ## Resultado do relacionamento
 
 O Resultado do relacionamento deverá ficar como o da figura abaixo:
 
-![App Screenshot](https://raw.githubusercontent.com/cleyton21/images/master/eer_diagrama_one_to_one.png?token=GHSAT0AAAAAAB7THWOZD2QLX7BOZWFNTUBIZAEXJNA)
+![App Screenshot](https://github.com/cleyton21/images/blob/master/eer_diagrama_one_to_one.png)
 
 
 ## Testando com Tinker
@@ -74,14 +74,14 @@ Agora que estamos dentro do console interativo do laravel, vamos criar nosso pri
 
 A escrita é e mesma como se estivéssemos dentro do nosso editor de código preferido, a diferença é que não precisamos verificar a resposta no nosso navegador. Tudo será feito no console do `Tinker`.
 
-![App Screenshot](https://raw.githubusercontent.com/cleyton21/images/master/criando_usuario.png?token=GHSAT0AAAAAAB7THWOZ53BKOPQ4WCH2U6GQZAEWYYA)
+![App Screenshot](https://github.com/cleyton21/images/blob/master/criando_usuario.png?raw=true)
 
 
 ## Criando Endereço e relacionando com usuário
 
 Agora que criamos o primeiro usuário com `id=1`, vamos criar um endereço e relacionar com o usuário deste id.
 
-![App Screenshot](https://raw.githubusercontent.com/cleyton21/images/master/criacao_address.png?token=GHSAT0AAAAAAB7THWOZNURWZIJ2X444JYP6ZAEXAYQ)
+![App Screenshot](https://github.com/cleyton21/images/blob/master/criacao_address.png?raw=true)
 
 
 ## Testando a relação One to One
@@ -96,7 +96,7 @@ App\Models\User::with('endereco')->findOrFail(1);
 
 O resultado será o mostrado abaixo:
 
-![App Screenshot](https://raw.githubusercontent.com/cleyton21/images/master/consulta_relacao_one_to_one.png?token=GHSAT0AAAAAAB7THWOZNRGVUG6TYMG4VGISZAEXGPQ)
+![App Screenshot](https://github.com/cleyton21/images/blob/master/consulta_relacao_one_to_one.png?raw=true)
 
 Agora todos os dados são trazidos em conjunto com a relação criada.
 
