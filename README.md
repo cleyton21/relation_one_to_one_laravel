@@ -32,7 +32,7 @@ php artisan make:model Address -m
 
 ## Arquivo migration address
 
-![App Screenshot](https://raw.githubusercontent.com/cleyton21/images/master/migration_address.png?token=GHSAT0AAAAAAB7THWOYWTLOGC2YTAGEP6DIZAEWHAA)
+![App Screenshot](https://github.com/cleyton21/images/blob/master/migration_address.png?raw=true)
 
 ### Execute o seguinte comando no seu terminal
 
